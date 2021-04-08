@@ -1,0 +1,12 @@
+from tkinter import*
+from tkinter import messagebox
+
+def loginwindow() :
+  root=Tk()
+  root.geometry("dxd"%(w,h))
+  root.config(bg='f20404')
+  return root
+ 
+w=400
+h=600
+root=loginwindow()
