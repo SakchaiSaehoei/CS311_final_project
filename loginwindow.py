@@ -1,4 +1,4 @@
-from tkinter import*
+'''from tkinter import*
 from tkinter import messagebox
 
 def loginwindow() :
@@ -9,4 +9,6 @@ def loginwindow() :
  
 w=400
 h=600
-root=loginwindow()
+root=loginwindow()'''
+
+print("here is the frist clone to the git hub")
