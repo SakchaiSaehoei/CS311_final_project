@@ -58,7 +58,7 @@ def randompin() :
     random_frm.columnconfigure(0,weight=1)
     random_frm.rowconfigure((0,1),weight=1)
     
-    random_pin= ''.join(random.choice(string.ascii_uppercase + string.digits) for i in range(6))
+    random_pin= ''.join(random.choice(string.digits) for i in range(6))
     Label(random_frm,text=random_pin,bg='orange').grid(row=0,column=0,sticky='news',pady=30)
     Button(random_frm,text="OK",width=10,font='Garamond 16 bold').grid(row=1,column=0,sticky='news',pady=30)
         
