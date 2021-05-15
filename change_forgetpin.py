@@ -38,7 +38,8 @@ def changepin(root) :
     cfnewp_ent=Entry(changepin_frm,width=20,show='*')
     cfnewp_ent.grid(row=6,column=0,columnspan=2,pady=10)
     
-    Button(changepin_frm,text="Apply",width=10,font='Garamond 16 bold').grid(row=7,column=0,columnspan=2,pady=10)
+    Button(changepin_frm,text="Apply",width=10,font='Garamond 16 bold').grid(row=7,column=0,pady=10)
+    Button(changepin_frm,text="Cancel",width=10,font='Garamond 16 bold').grid(row=7,column=1,pady=10)
     
 def forgetpin(root) :
     global forget_frm
