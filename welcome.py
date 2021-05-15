@@ -97,7 +97,12 @@ yearspy=IntVar()
 yearspy.set(2021)
 loginspy=StringVar()
 
-#first_time_use(root)
-loginwindow(root)
+sql_login="SELECT * FROM pin"
+cursor.execute(sql_login)
+result_login=cursor.fetchone()
+if result_login :
+    loginwindow(root)
+else :
+    first_time_use(root)
 
 root.mainloop()
