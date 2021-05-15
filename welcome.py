@@ -54,7 +54,6 @@ def createpin() :
     creatpin_frm.pack()
     
 def applypin():
-    global birthday
     if create_pin_ent.get() == "" :
         messagebox.showwarning("Agentask:","Pleas enter pin")
         create_pin_ent.focus_force()
